@@ -1,0 +1,67 @@
+.card {
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 1rem rgba($color: #4141418e, $alpha: 0.5);
+  height: 25rem;
+  width: 25rem;
+  overflow: hidden;
+  background-color: #99621e;
+  color: #fff;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+
+  &_title {
+    height: fit-content;
+
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 0.2rem solid rgba($color: #739e82, $alpha: 1);
+  }
+
+  &_body {
+    height: fit-content;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 2rem;
+  }
+}
+.comment {
+  &_main-title {
+    font-size: 2.2rem;
+    border-bottom: 0.2rem solid rgba($color: #739e82, $alpha: 1);
+  }
+  &_card {
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgba($color: #4141418e, $alpha: 0.5);
+    height: 10rem;
+    width: 25rem;
+    overflow: hidden;
+    background-color: #99621e;
+    color: #fff;
+    transition: transform 0.3s;
+    margin: 3rem 0;
+
+    &_title {
+      height: fit-content;
+
+      text-align: center;
+      padding-top: 1rem;
+      font-size: 2rem;
+      font-weight: 600;
+      border-bottom: 0.2rem solid rgba($color: #739e82, $alpha: 1);
+    }
+
+    &_body {
+      height: fit-content;
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: 400;
+      padding: 2rem;
+    }
+  }
+}
